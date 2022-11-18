@@ -25,19 +25,17 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul class="nav">
-                            
-                            <li class="nav-item">
-                              <a href="matching.html">Matching</a>
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;"
+                            margin="200px">
 
-                            </li>
-                          </ul>
-                        
-                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                            style="--bs-scroll-height: 100px;" margin = "200px">
-                                
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Matching
+
+                                </a>
+
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -54,7 +52,7 @@
                                     aria-expanded="false">
                                     Waves
                                 </a>
-         
+
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -63,7 +61,7 @@
                                 </a>
 
 
-    
+
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -76,18 +74,35 @@
 
                         </ul>
                         <ul class="nav">
-                            
-                            <li class="nav-item">
-                              <a href="login.html">Log-in</a>
 
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Log-in</a>
                             </li>
-                          </ul>
+                        </ul>
                     </div>
                 </div>
             </nav>
         </div>
         <div class="item3">
-            <img src="서핑 사진.jpg" width="100%">
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">지역</label>
+                  <input type="email" class="form-control" id=""placeholder="송정">
+                  <input type="email" class="form-control" id=""placeholder="양양">
+                  <input type="email" class="form-control" id=""placeholder="제주">
+
+
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">서프 홀릭</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="송정 서핑학교">
+                  <input type="text" class="form-control" id="inputAddress" placeholder="서프 홀릭">
+                  <input type="text" class="form-control" id="inputAddress" placeholder="써피써피">
+                </div>
+
+              </form>
+
         </div>
         <div class="item4"></div>
 
